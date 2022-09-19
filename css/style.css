@@ -524,6 +524,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.5rem;
 }
 
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-32 {
+  margin-bottom: 8rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
 .flex {
   display: flex;
 }
@@ -652,6 +668,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.5rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -669,6 +690,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-semibold {
@@ -709,7 +735,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-@media (min-width: 1020px) {
+@media (min-width: 1024px) {
   .bg-hero {
     width: 2000px;
     height: 300px;
@@ -718,6 +744,18 @@ Ensure the default browser behavior of the `hidden` attribute.
     top: 13rem;
     border-top-left-radius: 9999px;
     border-bottom-left-radius: 9999px;
+    --tw-bg-opacity: 1;
+    background-color: hsl(231 69% 60% / var(--tw-bg-opacity));
+  }
+
+  .bg-tabs {
+    width: 2000px;
+    height: 300px;
+    right: 60%;
+    position: absolute;
+    top: 15rem;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
     --tw-bg-opacity: 1;
     background-color: hsl(231 69% 60% / var(--tw-bg-opacity));
   }
